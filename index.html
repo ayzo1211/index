@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apology Message</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #800080, #FFB6C1, #FF0000, #D3D3D3, #FF6666);
+      background-size: 400% 400%;
+      animation: gradientBG 20s ease infinite;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .apology-box {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(12px);
+      border-radius: 25px;
+      padding: 50px;
+      text-align: center;
+      color: #fff;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+      animation: float 4s ease-in-out infinite;
+      max-width: 500px;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+
+    h1 {
+      font-size: 3em;
+      margin: 0;
+      background: linear-gradient(90deg, #ffdde1, #ee9ca7, #a1c4fd);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: fadeIn 2s ease forwards;
+    }
+
+    p {
+      font-size: 1.3em;
+      margin-top: 20px;
+      color:#000000;
+      animation: fadeIn 3s ease forwards;
+    }
+
+    .emoji {
+      font-size: 2em;
+      display: inline-block;
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="apology-box">
+    <h1>🙏 I'm Sorry Janam G💔</h1>
+    <p>
+      I truly apologize for my mistake <span class="emoji">😔</span><br>
+      Please forgive me. ukw n mere ps apky ilva koi bh ni a.
+      plz let us fix na we belong to eachother na.
+      ukw n i cant even imagine me without u.I'll learn from this and considerate in the future.
+      Plz give my old me and u. I prms i'll make me better for u.
+      Please My Love <span class="emoji">❤️</span><span class="emoji">🌸</span><span class="emoji">✨</span>
+    </p>
+  </div>
+</body>
+</html>
